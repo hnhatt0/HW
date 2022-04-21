@@ -1,0 +1,21 @@
+title: tên tab
+h1-h6: title
+br: ngắt đoạn
+hr: dấu gạch ngang
+q: trích dẫn
+ctrl + /: remove code
+ul: danh sach k theo thu tu
+ol: danh sach theo thu tu
+li: list item
+ul>li*5>strong/small
+shift alt down arrow
+th*4
+colspan/rowspan=""
+blank: open in new tab
+ctrl f5: reload
+audio
+video
+iframe
+checkbox
+radio
+inline va block
