@@ -19,3 +19,5 @@ iframe
 checkbox
 radio
 inline va block
+display inline block
+font awesome cdn
