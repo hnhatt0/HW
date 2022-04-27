@@ -21,3 +21,7 @@ radio
 inline va block
 display inline block
 font awesome cdn
+line-height=fontsize+5
+%,vh,vw
+background:
+   url() no-repeat center
