@@ -52,7 +52,7 @@ p{
 .tm{
     border-top: 2px solid rebeccapurple;
     height: 80px;
-    width: 100%;
+    width: auto;
     margin: 20px 0px 0px 0px;
     padding-left: 25%;
     padding-top: 10px;
