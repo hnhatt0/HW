@@ -45,7 +45,8 @@ body {
     box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13);
     box-sizing: border-box;
 }
-.name-box{
+
+.name-box {
     position: absolute;
     width: 125px;
     height: 90px;
@@ -57,27 +58,31 @@ body {
     font-size: 41px;
     line-height: 49px;
 }
-.heading{
+
+.heading {
     color: #B8C5D0;
     font-size: 10px;
     line-height: 11px;
     font-weight: 500;
 }
-.info{
+
+.info {
     color: #79838B;
     font-weight: 500;
     font-size: 15px;
     line-height: 17px;
     padding-bottom: 10px;
 }
-.mini-info-box{
+
+.mini-info-box {
     position: absolute;
     width: 125px;
     height: 90px;
     top: 120px;
     left: 175px;
 }
-.nav-panel{
+
+.nav-panel {
     position: absolute;
     width: 194px;
     height: 32px;
@@ -90,7 +95,8 @@ body {
     align-items: center;
     text-align: center;
 }
-.nav-white{
+
+.nav-white {
     width: 60px;
     height: 22px;
     background: #FFFFFF;
@@ -102,7 +108,8 @@ body {
     padding: 5px 0px 0px;
     margin-left: 3px;
 }
-.nav-blue{
+
+.nav-blue {
     background: #44C4FE;
     color: #FFFFFF;
     width: 60px;
@@ -114,7 +121,8 @@ body {
     padding: 5px 0px 0px;
     margin-left: 3px;
 }
-.bio-box{
+
+.bio-box {
     position: absolute;
     width: 335px;
     height: 119px;
@@ -130,7 +138,8 @@ body {
     padding: 10px 15px 0px;
     text-align: justify;
 }
-.on-the-web{
+
+.on-the-web {
     position: absolute;
     width: 335px;
     height: 91px;
@@ -145,12 +154,14 @@ body {
     padding: 15px 15px 0px;
     display: inline;
 }
-img{
+
+img {
     width: 30px;
     height: 30px;
     margin: 10px 0px 0px 20px;
 }
-.contact{
+
+.contact {
     position: absolute;
     width: 335px;
     height: 82px;
@@ -162,12 +173,15 @@ img{
     color: #6B7379;
     padding: 15px 20px;
 }
-.contact p{
+
+.contact p {
     padding-bottom: 12px;
 }
-.contact strong{
+
+.contact strong {
     padding-right: 80px;
 }
+
 .profile-picture-2 {
     position: absolute;
     width: 154px;
@@ -183,7 +197,8 @@ img{
     box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13);
     box-sizing: border-box;
 }
-.name-box-2{
+
+.name-box-2 {
     position: absolute;
     width: 125px;
     height: 76px;
@@ -195,13 +210,15 @@ img{
     font-size: 32px;
     line-height: 38px;
 }
-.mini-info-box-2{
+
+.mini-info-box-2 {
     position: absolute;
     width: 125px;
     height: 90px;
     top: 90px;
     left: 15px;
 }
+
 section {
     position: absolute;
     width: 335px;
@@ -214,7 +231,8 @@ section {
     align-items: center;
     text-align: center;
 }
-.projects{
+
+.projects {
     box-sizing: border-box;
     width: 158px;
     height: 183px;
@@ -224,14 +242,16 @@ section {
     border-radius: 15px;
     padding-top: 40px;
 }
-h2{
+
+h2 {
     font-family: sans-serif;
     font-weight: 500;
     font-size: 50px;
     line-height: 69px;
     color: #6E7880;
 }
-.projects p{
+
+.projects p {
     font-family: 'Trebuchet MS', 'Lucida Sans';
     font-weight: 500;
     font-size: 14px;
