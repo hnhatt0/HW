@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-box {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    border-radius: 20px;
+    background-color: #E2F4FF;
+}
+
+.info-box {
+    position: absolute;
+    width: 335px;
+    height: 250px;
+    left: 20px;
+    top: 50px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13);
+    border-radius: 20px;
+}
+
+.profile-picture {
+    position: absolute;
+    width: 154px;
+    height: 229px;
+    left: 10px;
+    top: 9px;
+    border-radius: 15px;
+    background: url(https://i.kym-cdn.com/photos/images/original/002/045/151/ebd.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13);
+    box-sizing: border-box;
+}
+.name-box{
+    position: absolute;
+    width: 125px;
+    height: 90px;
+    left: 175px;
+    top: 20px;
+    color: #79838B;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 49px;
+}
+.heading{
+    color: #B8C5D0;
+    font-size: 10px;
+    line-height: 11px;
+    font-weight: 500;
+}
+.info{
+    color: #79838B;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    padding-bottom: 10px;
+}
+.mini-info-box{
+    position: absolute;
+    width: 125px;
+    height: 90px;
+    top: 120px;
+    left: 175px;
+}
+.nav-panel{
+    position: absolute;
+    width: 194px;
+    height: 32px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    top: 320px;
+    left: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.nav-white{
+    width: 60px;
+    height: 22px;
+    background: #FFFFFF;
+    color: #44C4FE;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    border-radius: 16px;
+    padding: 5px 0px 0px;
+    margin-left: 3px;
+}
+.nav-blue{
+    background: #44C4FE;
+    color: #FFFFFF;
+    width: 60px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    border-radius: 16px;
+    padding: 5px 0px 0px;
+    margin-left: 3px;
+}
+.bio-box{
+    position: absolute;
+    width: 335px;
+    height: 119px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13);
+    border-radius: 14px;
+    top: 372px;
+    left: 20px;
+    color: #8E99A2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    padding: 10px 15px 0px;
+    text-align: justify;
+}
+.on-the-web{
+    position: absolute;
+    width: 335px;
+    height: 91px;
+    left: 21px;
+    top: 509px;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13);
+    border-radius: 14px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B7379;
+    padding: 15px 15px 0px;
+    display: inline;
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 0px 0px 20px;
+}
+.contact{
+    position: absolute;
+    width: 335px;
+    height: 82px;
+    left: 21px;
+    top: 618px;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13);
+    border-radius: 14px;
+    color: #6B7379;
+    padding: 15px 20px;
+}
+.contact p{
+    padding-bottom: 12px;
+}
+.contact strong{
+    padding-right: 80px;
+}
+.profile-picture-2 {
+    position: absolute;
+    width: 154px;
+    height: 229px;
+    left: 170px;
+    top: 8px;
+    border-radius: 15px;
+    background: url(https://i.kym-cdn.com/photos/images/original/002/045/151/ebd.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13);
+    box-sizing: border-box;
+}
+.name-box-2{
+    position: absolute;
+    width: 125px;
+    height: 76px;
+    left: 15px;
+    top: 25px;
+    color: #79838B;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+.mini-info-box-2{
+    position: absolute;
+    width: 125px;
+    height: 90px;
+    top: 90px;
+    left: 15px;
+}
+section {
+    position: absolute;
+    width: 335px;
+    height: 400px;
+    left: 20px;
+    top: 373px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.projects{
+    box-sizing: border-box;
+    width: 158px;
+    height: 183px;
+    background: #FAFDFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 3px 3px 9px rgba(190, 190, 190, 0.13);
+    border-radius: 15px;
+    padding-top: 40px;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 69px;
+    color: #6E7880;
+}
+.projects p{
+    font-family: 'Trebuchet MS', 'Lucida Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9FADB8
+}

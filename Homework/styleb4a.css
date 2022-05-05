@@ -1,4 +1,4 @@
-.redtextbox{
+.redtextbox {
     background-color: #ffe4e1;
     color: #8f1200;
     width: 36%;
@@ -10,16 +10,20 @@
     font-weight: bold;
     padding: 15px 0px 0px 15px;
 }
-.readinglist{
+
+.readinglist {
     font-size: 20px;
     font-weight: bold;
     padding: 20px 0px 20px;
 }
-.option, .option p{
+
+.option,
+.option p {
     font-size: 16px;
     display: inline-block;
 }
-.bluetextbox{
+
+.bluetextbox {
     background-color: #e6e6fa;
     border: 3px solid #4040ff;
     height: 150px;
@@ -27,8 +31,9 @@
     padding: 10px 0px 0px 25px;
     margin: 20px 0px 0px 20px;
 }
-p{
-    color:#4040ff;
+
+p {
+    color: #4040ff;
     font-size: 20px;
     font-weight: bold;
 }

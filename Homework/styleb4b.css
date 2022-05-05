@@ -1,25 +1,28 @@
-.header{
+.header {
     height: 110px;
     width: auto;
     font-size: 20px;
     font-family: sans-serif;
     color: white;
     background-color: rebeccapurple;
-    margin: -32px -8px 0px; 
+    margin: -32px -8px 0px;
     padding: 20px 0px 0px 25%;
 }
-img{
+
+img {
     width: 758px;
     height: 426px;
     border-radius: 10px;
     margin-top: 20px;
 }
-.container{
+
+.container {
     font-family: sans-serif;
     font-size: 18px;
     padding: 0px 25% 0px;
 }
-.card{
+
+.card {
     border: 1px solid #c9c9c9;
     border-radius: 10px;
     height: 50%;
@@ -28,20 +31,24 @@ img{
     box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
 
 }
-h3{
-    color:rebeccapurple;
+
+h3 {
+    color: rebeccapurple;
 }
-em{
+
+em {
     background-color: #eddbff;
     padding: 4px;
     border-radius: 4px;
 }
-p{
+
+p {
     color: #757575;
     line-height: 1.5;
     font-size: 16px;
 }
-.button{
+
+.button {
     background-color: rebeccapurple;
     color: white;
     border-radius: 4px;
@@ -49,7 +56,8 @@ p{
     text-decoration: none;
     font-size: 16px;
 }
-.tm{
+
+.tm {
     border-top: 2px solid rebeccapurple;
     height: 80px;
     width: auto;
@@ -57,7 +65,8 @@ p{
     padding-left: 25%;
     padding-top: 10px;
 }
-#copyright{
+
+#copyright {
     font-family: sans-serif;
     font-size: 16px;
     color: black;
