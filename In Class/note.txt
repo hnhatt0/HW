@@ -31,7 +31,10 @@ reset css:
       padding: 0;
       box-sizing: border-box;
    }
-position absolute an theo cha gan nhat
+position absolute an theo parent gan nhat
 position static: theo browser, nhan theo body
 position fixed: theo man hinh (thg dung cho nut scroll to top)
 position relative: 
+
+github clone: git clone 'url'.
+github pull: git pull origin master
