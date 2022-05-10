@@ -30,7 +30,7 @@ div p {
 .transparenttable {
     border: 10px solid transparent;
     border-collapse: collapse;
-    (also style="background-color"for th and td)
+    /* (also style="background-color"for th and td) */
 }
 
 .pointer {

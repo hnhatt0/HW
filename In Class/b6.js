@@ -2,17 +2,22 @@ let ztenToi = "suiiiiii"; //(khai bao bien)
 console.log(ztenToi.length);
 console.log(ztenToi.concat("jjj"));
 console.log(ztenToi.toUpperCase);
-// console.log(ztenToi.trim());
-console.log(ztenToi.charAt(5));
+console.log(ztenToi.indexOf('i', 4)); //tim chu
+console.log(ztenToi.lastIndexOf()); // tim chu (last)
+console.log(ztenToi.search('su')) //tim bieu thuc chinh quy
+console.log(ztenToi.slice(-1, -4)) // cut string 
+console.log(ztenToi.replace('su', 'us')) // /su/g 
+console.log(ztenToi.trim()); //loai bo white space
+console.log(ztenToi.charAt(5)); //= ztenToi[5]
 console.log(ztenToi.includes("cr7"));
-console.log(ztenToi.split("i"));
+console.log(ztenToi.split("i")); // cat string thanh array, tim diem chung
 console.log(typeof ztenToi)
 
 ztenToi = "Ronaldo";
-console.log(ztenToi);
+console.warn(ztenToi);
 // alert(tenToi);
 const MY_DOB = "2001" //(ko đặt tên trùng với thuộc tính js)
-console.log(MY_DOB);
+console.error(MY_DOB);
 //String: chuoi ky tu
 const babaBoi = 'asfnsd vcjvkjad awioo';
 let babaCoi = 46;
@@ -28,6 +33,8 @@ console.log(mySalary ** 5)
 console.log(mySalary += 8)
 console.log(mySalary++)
 console.log(++mySalary)
+console.log(mySalary.toString())
+console.log(mySalary.toFixed(2)) //lam tron so thap phan, thanh string
 //Boolean true or false
 //BigInt
 //null, undefine
@@ -53,3 +60,14 @@ let result = x++ + ++x + y-- - --y;
 console.log(x);
 console.log(y);
 console.log(result);
+// kiem tra NaN:
+console.log(isNaN(result))
+
+confirm('Vibe check')
+prompt('insert nuke code')
+// setTimeout(function() {
+//     alert('Error')
+// }, 1000)
+setInterval(function() {
+    console.log ('A' + Math.random())
+}, 5000)
