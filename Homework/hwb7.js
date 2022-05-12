@@ -58,7 +58,7 @@ for(let g=0; g < row4; g++) {
     for(let h=0; h < g; h++) {
        tri4 += ' '
     }
-    for(let h=0; h < (col4 - g) * 2 - 1; h++) {
+    for(let h=0; h < (row4 - g) * 2 - 1; h++) {
         tri4 += '*'
     }
     tri4 +='\n';
@@ -78,11 +78,46 @@ console.log(tri4)
 let hinh5 = 'Hinh 5'
 console.log(hinh5)
 let tri5 = ''
-const col5 = 9;
+const col5 = 10;
 
-for(let g=0; g < row4; g++) {
-    for(let h=0; h < g; h++) {
-       tri4 += ' '
+for (let i = 1; i <= 5; i++) {
+    for (let j = 1; j <= col5; j++) {
+        if (j === col5 / 2 + 1 - i || j === col5 / 2 + i) {
+          tri5 += i;
+        } else {
+          tri5 += ' ';
+        }
     }
-}
-console.log(tri5)
+    tri5 += '\n';
+  }
+  for (let i = 4; i >= 1; i--) {
+    for (let j = 1; j <= col5; j++) {
+        if (j === col5 / 2 + 1 - i || j === col5 / 2 + i) {
+          tri5 += i;
+        } else {
+          tri5 += ' ';
+        }
+    }
+    tri5 += '\n';
+  }
+  console.log(tri5);
+
+//
+let hinh6 = 'Hinh 6'
+console.log(hinh6)
+let tri6 = ''
+const col6 = 10;
+
+for (let k=1; k <= col6; k++) {
+    for (let l=0; l < k; l++) {
+        if (k === col6) {
+            tri6 += '*'
+        } else if (l === 0 || l == k - 1) {
+            tri6 += '*'
+        } else {
+            tri6 += ' '
+        }
+        }
+        tri6 += '\n';
+    }
+console.log(tri6)
