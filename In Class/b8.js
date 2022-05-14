@@ -34,8 +34,12 @@ let teams = [
     'Navi',
     'Faze'
 ]
+
+console.log(teams.slice(1,2))
+console.log(teams.toString())
+console.log(Array.isArray(teams)) //kiem tra data type
 console.table(menu)
-//menu.splice(2, 2)
+//menu.splice(2, 2, 'NiP') // Xoa element
 menu.includes('asas')
 menu.sort()
 console.log(menu)
@@ -65,7 +69,7 @@ function myF(arr) {
     }
     return fakeArr
 }
-menu.pop()
+menu.pop() // xoa element cuoi + tra ve phan tu da xoa
 console.log(menu)
 let sum = 0;
 
@@ -96,3 +100,29 @@ for (j = 0; j < Lead.length - 1; j++) {
 }
 
 console.log(Lead);
+
+//---
+function writeLog() {
+    let testString = '';
+    for (i of arguments) {
+        testString += `${i} `;
+    }
+    console.log(testString);
+}
+writeLog(1, 2, 3, 4, 5, 6)
+
+function showMess() {
+    function showMess2() {
+        console.log('32r32')
+    }
+    showMess2(); //phai viet cai nay o trong
+}
+showMess()
+
+//Loai function:
+//Declaration func: Thuong dung, co the call trc khi dinh nghia
+ass()
+function ass() {}
+//Expression func: Long func trg 1 bien, k the call trc khi dinh nghia
+let ab = function() {}
+setTimeout(function aa() {})

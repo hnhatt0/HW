@@ -38,3 +38,7 @@ position relative:
 
 github clone: git clone 'url'.
 github pull: git pull origin master
+
+boolean: 'is/has~'
+function: 'handle~'
+array: 'list~'

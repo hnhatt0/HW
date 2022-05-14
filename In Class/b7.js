@@ -150,7 +150,7 @@ if (prime) {
 }
 }
 
-
+//---
 // for/in loop
 let info = {
     name: 'A',

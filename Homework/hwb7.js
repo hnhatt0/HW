@@ -121,3 +121,24 @@ for (let k=1; k <= col6; k++) {
         tri6 += '\n';
     }
 console.log(tri6)
+
+// Kiem tra so nguyen to
+
+function check(num) {
+    let flag = true;
+    if(num === 0 || num === 1) {
+        flag = false;
+    }
+    
+    for(let i = 2; i < num/2; i++) {
+        if(num % i === 0) {
+            flag = false;
+            break;
+        }
+    }
+    //console.log('suii')
+    return flag
+}
+
+console.log(check(7) || check(15))
+console.log(check(7) && check(15))
