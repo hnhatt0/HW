@@ -35,3 +35,27 @@ function kangaroo(x1, v1, x2, v2) {
 
 console.log(kangaroo(0, 3, 4, 2)); //yes
 console.log(kangaroo(0, 2, 5, 3)); //no
+
+//---
+//Migratory Birds
+function migratoryBirds(arr) {
+    
+    console.log(arr.length)
+    return arr;
+}
+
+//Drawing Book
+function pageCount(n, p) {
+    let pages = Math.floor(n / 2); //10
+    let turn = Math.floor(p / 2); //3
+    return console.log(Math.min(turn, pages - turn));
+}
+
+pageCount(20,9);
+
+/*1
+//2,3
+//4,5
+//6,7
+//8,9
+*/
