@@ -90,6 +90,7 @@ setInterval(() => { //sau 4s se thuc hien lai function 1 lan
     console.log(new Date().getSeconds());
 }, 2000)
 
+
 //IIEF function
 (function() {
     /* */

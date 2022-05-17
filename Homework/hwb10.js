@@ -24,8 +24,8 @@ console.log(array);
 //kangaroo
 function kangaroo(x1, v1, x2, v2) {
     let result = 'NO';
-    for(let i=1; i <= 10000; i++) {
-        if (x1 + v1*i == x2 + v2*i) {
+    for (let i = 1; i <= 10000; i++) {
+        if (x1 + v1 * i == x2 + v2 * i) {
             result = 'YES'
             break;
         }
@@ -38,11 +38,23 @@ console.log(kangaroo(0, 2, 5, 3)); //no
 
 //---
 //Migratory Birds
+
 function migratoryBirds(arr) {
-    
-    console.log(arr.length)
-    return arr;
+    let sort = arr.sort();
+    let result = sort[0];
+    let occ = 1;
+    let a = 0;
+    for (let i = 1; i <= sort.length; i++) {
+        a = (sort[i] == sort[i - 1]) ? a + 1 : 0;
+        if (a > occ) {
+            result = sort[i];
+            occ = a;
+        }
+    }
+    return result;
 }
+console.log(migratoryBirds([2, 1, 5, 4, 4, 3, 3, 4])); // 4
+
 
 //Drawing Book
 function pageCount(n, p) {
@@ -51,7 +63,7 @@ function pageCount(n, p) {
     return console.log(Math.min(turn, pages - turn));
 }
 
-pageCount(20,9);
+pageCount(20, 9);
 
 /*1
 //2,3
